@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/83bdeaebc9.js" crossorigin="anonymous"></script>
+    
+</head>
+<body class="main">
+
+    <form>
+        <div class="form_father">
+           
+            <h1>  <i class="fa-brands fa-pagelines"></i> Save the planet!</h1>
+            <h3>Survey Form</h3>
+            <label class="label_text">Full Name</label>
+            <input class= "control_input" type="text" name="Name" placeholder="Enter your Full Name here">
+           
+            <label class="label_text">Email</label>
+            <input class= "control_input" type="email" name="Email" placeholder="Place a real Email address" inputmode="email">
+            
+            <label class="label_text">Password</label>
+            <input class= "control_input" type="password" name="Password" placeholder="Place a Secure Password">
+            <label class="label_text">How many trees you going to plant per month?<input class="number_n_trees_input" min="1" max="10" type="number" name="age"> </label>
+            
+            <div class="form_footer">
+                <div class="dropdown_trees">
+                    <label for="trees">Choose a type of tree:</label>
+                        <select class="number_n_trees_input" name="cars" id="cars">
+                            <option value="Deciduous">Deciduous</option>
+                            <option value="Coniferous">Coniferous</option>
+                        </select>
+                </div>
+
+                <div class="chkbuton">
+                    <p>Do you want to commit to the environment and recive more survey later? <input class="chek_condintions" type="checkbox" ></p>
+                </div>
+
+                <div class="radioButton">
+                    <fieldset>
+                        <legend> <em>Select an option to recieve the email:</em></legend>
+                        <div>
+                          <input type="radio" id="daily" name="mail" value="daily"
+                                 checked>
+                          <label for="daily">Daily</label>
+                          
+                          <input type="radio" id="weekly" name="mail" value="weekly">
+                          <label for="weekly">Weekly</label>
+                          
+                          <input type="radio" id="monthly" name="mail" value="monthly">
+                          <label for="monthly">Monthly</label>
+                        </div>
+                    
+                    </fieldset>
+                </div>
+
+                <div class="textarea_form">
+                    <label for="textarea_comment">If you have any comment, please write below</label>
+                    <textarea maxlength="155" wrap="hard" placeholder="Write here" name="comment" id="textarea" cols="35" rows="5" class="number_n_trees_input"></textarea>
+                </div>
+
+                <div class="finalButton">
+                    <input class="buton_input" type="submit" value="Send Survey">
+                </div>
+                
+
+            </div>
+        </form>
+
+    </section>
+
+    <footer>
+
+
+    </footer>
+    
+</body>
+</html>

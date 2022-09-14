@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main  {
+    background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.80),
+    rgba(0, 0, 0, 0.80)
+  ), url("https://cdn.com.do/wp-content/uploads/2021/04/2f387543-dsc00040-1-6075c9ee7b37c.jpg");
+}
+
+
+.form_father{
+    width: 400px;
+    background: rgba(255, 255, 255, 0.854);
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.263);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    color: rgba(0, 56, 41, 0.829);
+}
+
+.form_father h1{
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    transition: all .9s;
+}
+
+.form_father h3{
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: rgb(0, 45, 0);
+}
+
+.form_father h1:hover{
+    font-size: 25pt;
+}
+
+.control_input{
+    width: 100%;
+    background-color: rgba(235, 235, 235, 0.431);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+}
+
+.number_n_trees_input{
+    margin: 2%;
+    padding-left: 7%;
+    color: rgb(21, 60, 0);
+    border-radius: 5px;
+    background-color: rgba(235, 235, 235, 0.431);
+    margin-left: 2%;
+    font-weight: 900;
+}
+
+.label_text{
+    font-size: 12pt;
+    font-weight: bolder;
+    transition: all .9s;
+}
+
+
+
+.buton_input{
+    cursor: pointer;
+    border-radius: 05px;
+    font-size: large;
+    padding: 3%;
+    margin: 4% 0% 4% 0%;
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(5, 56, 0, 0.215);
+    border: 1px;
+    box-shadow: 4px 4px 2px;
+    transition: color .5s;
+}
+
+.buton_input:hover {
+    color: rgb(0, 140, 61);
+}
+
+.form_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown_trees{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    resize: none;
+}
+
+.textarea_form{
+    padding: 4%;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.radioButton{
+    padding: 2% 0% 0% 0%;
+    width: 70%;
+}
+
